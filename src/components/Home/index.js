@@ -2,13 +2,23 @@ import Cookies from "js-cookie";
 import { useNavigate, Link } from "react-router-dom";
 
 import "./index.css";
+import { useEffect } from "react";
 
 const Home = () => {
   const navigate = useNavigate();
-  const jwtToken = Cookies.get("jwt_token");
-  if (jwtToken === undefined) {
-    return navigate("/login");
-  }
+
+  // const jwtToken = Cookies.get("jwt_token");
+  // if (jwtToken === undefined) {
+  //   return navigate("/login");
+  // }
+
+  useEffect(() => {
+    const jwtToken = Cookies.get("jwt_token");
+
+    if (!jwtToken) {
+      navigate("/login"); // Redirect to login if no token is found
+    }
+  }, [navigate]);
 
   return (
     <>
