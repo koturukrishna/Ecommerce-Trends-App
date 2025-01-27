@@ -27,7 +27,7 @@ Payment Integration:
 
 Razorpay is integrated for secure and reliable payment processing.
 Here The Project link: https://krish-nxt-trends.netlify.app/
-##username: rahul and password: rahul@2021
+#username: rahul and password: rahul@2021
 
 here the screenshots:
 ![image](https://github.com/user-attachments/assets/ce75199a-3a19-46ff-929c-a10e7305038c) 
