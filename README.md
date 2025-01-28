@@ -26,7 +26,7 @@ Allows clearing the entire cart with a single action.
 Payment Integration:
 
 Razorpay is integrated for secure and reliable payment processing.
-Here The Project link: https://krishna-next-trends.netlify.app/
+Here The Project link: https://krishna-nxt-trends.netlify.app/
 #username: rahul and password: rahul@2021
 
 here the screenshots:
